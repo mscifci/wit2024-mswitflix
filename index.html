@@ -11,21 +11,26 @@
 <body>
     <header>
        <h1>MSFlix</h1>
-       <nav>
+      
+       <nav class="nav-menu">
         <a href="#">Ana Sayfa</a>
         <a href="#">Film</a>
         <a href="#">Dizi</a>
         <a href="#">Bize Ulaşın</a>
-       </nav>
-
+       </nav>      
+       
        <div class ="user-panel">
         <input type="text" placeholder="Arama"/>
         <i class="fa-solid fa-bell fa-2x"></i>
         <img class="avatar" src="https://picsum.photos/50" alt="Kullanıcı Avatarı" />
        </div>
+       <div class="hamburger">☰</div>
     </header>
 
-    <main class="hero"></main>
+    <main class="hero">
+
+        <img src="./assets/videos/film1.gif" alt="Background GIF" class="background-gif">
+
         <div class="movie">
             <h2>Öne Çıkan Film</h2>
             <div class="movie-info">
@@ -49,21 +54,117 @@
             </div>
             <button><i class="fa-solid fa-play"></i>Hemen İzle</button>
         </div>
-
+    </main>
     <section class="suggestions">
-        <div class="suggestions-row">
-            <div class="suggestions-row-title">
+        <div class="suggestion-row">
+            <div class="suggestion-row-title">
                 <h3>Popüler Filmler</h3>
-                <div class="movie-info">
-                    <span class="content-rating">13+</span>
-                    <span class="movie-duration">1 h 25 min</span>
-                </div>
-                <button><i class="fa-solid fa-play"></i>Hemen İzle</button>
+                <a href="#">Hepsini Listele</a>
             </div>
+            <div class="suggestion-movies">
+                <div class="movie-card">
+                    <h4>Film 1</h4>
+                    <div class="movie-info">
+                        <span class="content-rating">13+</span>
+                        <span class="movie-duration">1 h 25 min</span>
+                    </div>
+                    <button><i class="fa-solid fa-play"></i>Hemen İzle</button>
+                </div>
+                <div class="movie-card">
+                    <h4>Film 2</h4>
+                    <div class="movie-info">
+                        <span class="content-rating">16+</span>
+                        <span class="movie-duration">2 h 10 min</span>
+                    </div>
+                    <button><i class="fa-solid fa-play"></i> Şimdi İzle</button>
+                </div>
+                <div class="movie-card">
+                    <h4>Film 3</h4>
+                    <div class="movie-info">
+                        <span class="content-rating">18+</span>
+                        <span class="movie-duration">2 h 30 min</span>
+                    </div>
+                    <button><i class="fa-solid fa-play"></i> Şimdi İzle</button>
+                </div>
+                <div class="movie-card">
+                    <h4>Film 4</h4>
+                    <div class="movie-info">
+                        <span class="content-rating">18+</span>
+                        <span class="movie-duration">2 h 30 min</span>
+                    </div>
+                    <button><i class="fa-solid fa-play"></i> Şimdi İzle</button>
+                </div>
+                <div class="movie-card">
+                    <h4>Film 5</h4>
+                    <div class="movie-info">
+                        <span class="content-rating">18+</span>
+                        <span class="movie-duration">2 h 30 min</span>
+                    </div>
+                    <button><i class="fa-solid fa-play"></i> Şimdi İzle</button>
+                </div>
+                <div class="movie-card">
+                    <h4>Film 6</h4>
+                    <div class="movie-info">
+                        <span class="content-rating">18+</span>
+                        <span class="movie-duration">2 h 30 min</span>
+                    </div>
+                    <button><i class="fa-solid fa-play"></i> Şimdi İzle</button>
+                </div>
+                <div class="movie-card">
+                    <h4>Film 7</h4>
+                    <div class="movie-info">
+                        <span class="content-rating">18+</span>
+                        <span class="movie-duration">2 h 30 min</span>
+                    </div>
+                    <button><i class="fa-solid fa-play"></i> Şimdi İzle</button>
+                </div>
+            </div>         
         </div>
     </section>
         
-    <footer></footer>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-navigation">
+                <nav>
+                    <a href="">Terms of Use</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">FAQ</a>
+                    <a href="">Watch List</a>
+                </nav>
+            </div>
+           
+        </div>
+    
+        <div class="footer-description">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam
+                repellat mollitia placeat saepe ipsa provident ut, molestiae eaque
+                eligendi culpa similique non earum assumenda? Iste quisquam
+                necessitatibus maxime sequi optio, cupiditate non voluptatibus dolor
+                hic quidem, architecto, recusandae veritatis?
+            </p>
+            <div class="social-icons">
+                <i class="fa-brands fa-square-facebook fa-2x"></i>
+                <i class="fa-brands fa-square-x-twitter fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+            </div>
+            <div class="social-navigation">
+                <h5>Follow Us</h5>
+            </div>
+        </div>
+    
+        <div class="mobile-app-navigation">
+            <h5>Apps</h5>
+          
+            <div>
+                <img src="./assets/images/appstore.png" />
+                <img src="./assets/images/google.png" />
+                <img src="./assets/images/huawei.png" />
+            </div>
+        </div>
+        <p>&copy; 2024 MsFlix. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>
